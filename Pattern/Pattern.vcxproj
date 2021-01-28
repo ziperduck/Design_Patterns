@@ -151,7 +151,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Pattern.cpp" />
+    <ClCompile Include="Chapter_2.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Chapter_1.cpp" />
+    <ClCompile Include="Observer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Chapter_1.h" />
+    <ClInclude Include="Chapter_2.h" />
+    <ClInclude Include="Observer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
