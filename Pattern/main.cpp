@@ -2,10 +2,11 @@
 #include "Chapter_1.h"
 #include "Chapter_2.h"
 #include "Observer.h"
+#include "Prototype.h"
 
 int main()
 {
-	Observer_Main();
+	Prototype_Main();
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
